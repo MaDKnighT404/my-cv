@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 50px;
+}
+
+.header-content {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+
+  &__title {
+    border-bottom: 1px dotted dodgerblue;
+    margin: 0;
+    padding: 0.68em 0;
+  }
+}

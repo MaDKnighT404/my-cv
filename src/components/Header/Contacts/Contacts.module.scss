@@ -1,0 +1,12 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: auto;
+
+  &__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+}
