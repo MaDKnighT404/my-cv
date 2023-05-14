@@ -1,4 +1,4 @@
-import './index.scss';
+import './Header.module.scss';
 import react from '../../assets/react.svg'
 
 const Header = () => {

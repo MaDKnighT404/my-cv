@@ -1,4 +1,4 @@
-import './index.scss'
+import './Main.module.scss'
 
 const Main = () =>  {
 
