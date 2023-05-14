@@ -1,6 +1,7 @@
 import { Logo } from './Logo';
 import { Navigation } from './Navigation';
 import { Contacts } from './Contacts';
+import { Title } from './Title';
 import styles from './Header.module.scss';
 
 export const Header = () => {
@@ -9,7 +10,7 @@ export const Header = () => {
       <Logo />
       <div className={styles['header-content']}>
         <Navigation />
-        <h1 className={styles['header-content__title']}>George Koloidi</h1>
+        <Title />
         <Contacts />
       </div>
     </header>

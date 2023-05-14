@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap';
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700;900&display=swap');
 @import 'reset';
 @import 'normalize';
 @import 'layouts';
@@ -7,7 +7,7 @@
 @import 'themes/dark';
 
 body {
-  font-family: Inter, sans-serif, ui-sans-serif, system-ui, -apple-system, Arial;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
 }
 
