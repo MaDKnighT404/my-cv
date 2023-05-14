@@ -1,6 +1,6 @@
-import Footer from '../Footer/Footer';
-import Header from '../Header/Header';
-import Main from '../Main/Main';
+import { Header } from '../Header';
+import { Main } from '../Main';
+import { Footer } from '../Footer';
 import styles from './App.module.scss';
 
 const App = () => {
