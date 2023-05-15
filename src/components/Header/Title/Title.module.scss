@@ -18,13 +18,12 @@
   }
 
   &__job {
-    font-size: 1.0rem;
+    font-size: 1.1rem;
     padding: 10px 3px;
     border-bottom: 2px dotted dodgerblue;
 
     @media (max-width: 640px) {
       padding-bottom: 30px;
-
     }
   }
 }

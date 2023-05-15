@@ -1,0 +1,22 @@
+.modal-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.modal {
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 1.8rem;
+    color: white;
+  }
+}
