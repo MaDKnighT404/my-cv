@@ -1,17 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@300;400;500;700;900&display=swap');
 @import 'reset';
 @import 'normalize';
-@import 'layouts';
-@import 'variables';
 @import 'themes/light';
 @import 'themes/dark';
 
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: 16px;
-}
-
-#root {
-  min-height: 100vh;
-  background: rgb(172, 133, 208);
 }

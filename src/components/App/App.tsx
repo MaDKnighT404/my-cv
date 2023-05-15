@@ -9,9 +9,11 @@ const App = () => {
 
   return (
     <div className={`${styles.app} ${theme}`}>
-      <Header />
-      <Main />
-      <Footer />
+      <div className={styles.container}>
+        <Header />
+        <Main />
+        <Footer />
+      </div>
     </div>
   );
 };
