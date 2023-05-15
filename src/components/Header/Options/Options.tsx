@@ -2,22 +2,16 @@ import styles from './Options.module.scss';
 import useTheme from '../../../store/store';
 
 export const Options = () => {
-  if (localStorage.getItem('theme') === 'light') {
-    localStorage.setItem('theme', 'light');
-  } else {
-    localStorage.setItem('theme', 'dark');
-  }
-
   const theme = useTheme((state) => state.theme);
   const changeTheme = useTheme((state) => state.changeTheme);
 
   const handleToggleTheme = () => {
-    if (theme === 'light') {
-      localStorage.setItem('theme', 'dark');
-      changeTheme('dark');
+    if (theme === 'light-theme') {
+      localStorage.setItem('theme', 'dark-theme');
+      changeTheme('dark-theme');
     } else {
-      localStorage.setItem('theme', 'light');
-      changeTheme('light');
+      localStorage.setItem('theme', 'light-theme');
+      changeTheme('light-theme');
     }
   };
 
@@ -26,7 +20,7 @@ export const Options = () => {
       <button
         onClick={handleToggleTheme}
         className={`${styles.options__btn} ${
-          theme === 'light' ? styles.options__btn_light : styles.options__btn_dark
+          theme === 'light-theme' ? styles.options__btn_light : styles.options__btn_dark
         }`}
       />
     </div>
