@@ -1,5 +1,5 @@
+import useTheme from '@store/store';
 import styles from './Options.module.scss';
-import useTheme from '../../../store/store';
 
 export const Options = () => {
   const theme = useTheme((state) => state.theme);

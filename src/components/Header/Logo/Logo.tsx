@@ -1,5 +1,6 @@
+import photo from '@assets/photo.png';
 import styles from './Logo.module.scss';
-import photo from '../../../assets/photo.png';
+
 export const Logo = () => {
   return (
     <div className={styles.logo}>

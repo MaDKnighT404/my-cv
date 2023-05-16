@@ -1,9 +1,9 @@
-import { Logo } from './Logo';
-import { Navigation } from './Navigation';
-import { Burger } from './Burger';
-import { Contacts } from './Contacts';
-import { Title } from './Title';
-import { Options } from './Options';
+import { Logo } from '@Header/Logo';
+import { Navigation } from '@Header/Navigation';
+import { Burger } from '@Header/Burger';
+import { Contacts } from '@Header/Contacts';
+import { Title } from '@Header/Title';
+import { Options } from '@Header/Options';
 import styles from './Header.module.scss';
 
 export const Header = () => {

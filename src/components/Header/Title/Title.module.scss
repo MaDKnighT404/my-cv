@@ -20,7 +20,7 @@
   &__job {
     font-size: 1.4rem;
     padding: 10px 3px;
-    border-bottom: 2px dotted dodgerblue;
+    border-bottom: 2px dotted var(--text-color);
 
     @media (max-width: 640px) {
       padding-bottom: 30px;

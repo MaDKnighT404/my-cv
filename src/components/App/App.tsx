@@ -1,7 +1,7 @@
 import { Header } from '../Header';
 import { Main } from '../Main';
 import { Footer } from '../Footer';
-import { useTheme } from '@/store/store';
+import { useTheme } from '@store/store';
 import styles from './App.module.scss';
 
 const App = () => {

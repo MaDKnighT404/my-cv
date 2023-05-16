@@ -7,7 +7,7 @@
   &__btn {
     width: 35px;
     height: 35px;
-    border: 1px solid rgb(169, 111, 111);
+    border: 1px solid transparent;
     border-radius: 50%;
     cursor: pointer;
     transition: 0.15s ease-in;
@@ -19,12 +19,12 @@
 
     &_light {
       background: url(../../../assets/icon-sun.svg) no-repeat;
-      background-size: 100% 100%;
+      background-size: contain;
     }
 
     &_dark {
-      background: url(../../../assets/icon-moon.svg) no-repeat;
-      background-size: 100% 100%;
+      background: url(../../../assets/icon-moon.svg) no-repeat ;
+      background-size: contain;
     }
   }
 }

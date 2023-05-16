@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { Modal } from '../Modal';
+import { Modal } from '@Header/Modal';
 import styles from './Burger.module.scss';
 
 export const Burger = () => {

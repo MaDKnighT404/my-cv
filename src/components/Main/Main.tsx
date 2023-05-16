@@ -1,5 +1,10 @@
+import { Summary } from '@Main/Summary';
 import styles from './Main.module.scss';
 
 export const Main = () => {
-  return <></>;
+  return (
+    <>
+      <Summary></Summary>
+    </>
+  );
 };

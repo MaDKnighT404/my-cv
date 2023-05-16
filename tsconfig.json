@@ -1,8 +1,12 @@
 {
   "compilerOptions": {
     "paths": {
-      "@/*": ["./src/*"],
-      "@store/*": ["./src/store/*"]
+      "@/*": ["./src/components/*"],
+      "@Main/*": ["./src/components/Main/*"],
+      "@Header/*": ["./src/components/Header/*"],
+      "@Footer/*": ["./src/components/Footer/*"],
+      "@store/*": ["./src/store/*"],
+      "@assets/*": ["./src/assets/*"]
     },
     "target": "ESNext",
     "useDefineForClassFields": true,
