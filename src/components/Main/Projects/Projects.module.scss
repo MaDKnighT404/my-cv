@@ -9,9 +9,13 @@
 .projects-list {
   display: grid;
   gap: 25px;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 
-  @media (max-width: 768px) {
+  @media (max-width: 1028px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (max-width: 580px) {
     grid-template-columns: 1fr;
   }
 }

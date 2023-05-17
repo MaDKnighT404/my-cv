@@ -23,14 +23,14 @@
 
     }
 
-    // @media (max-width: 768px) {
-    //   grid-template-areas:
-    //   "sum"
-    //   "skills"
-    //   "educ"
-    //   "lang";
-    //   grid-template-columns:1fr;
-    // }
+    @media (max-width: 480px) {
+      grid-template-areas:
+      "sum"
+      "skills"
+      "educ"
+      "lang";
+      grid-template-columns:1fr;
+    }
   }
 
   .work {

@@ -22,14 +22,10 @@
   &__list-item {
     font-size: 20px;
     flex-basis: 100%;
-    // @media (max-width: 768px) {
-    //   padding-left: 30px;
-    //   flex-basis: 45%;
-    // }
 
-    // @media (max-width: 420px) {
-    //   padding-left: 7px;
-    //   flex-basis: 45%;
-    // }
+    @media (max-width: 480px) {
+      padding-left: 7px;
+      flex-basis: 45%;
+    }
   }
 }
