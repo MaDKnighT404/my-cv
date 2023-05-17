@@ -1,14 +1,11 @@
 .summary {
-  margin: 0 auto;
-  padding: 0 15px;
+  grid-area: sum;
 
   &__title {
-    margin-top: 25px;
-    font-size: 2rem;
+
   }
 
   &__content {
-    margin-top: 15px;
     line-height: 1.4rem;
   }
 }

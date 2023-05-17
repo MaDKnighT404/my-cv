@@ -19,12 +19,27 @@
 
   &__job {
     font-size: 1.4rem;
-    padding: 10px 3px;
+    margin-top: 10px;
+
+    @media (max-width: 640px) {
+      font-size: 1.1rem;
+    }
+  }
+
+  &__location {
+    font-size: 1.4rem;
+    margin-top: 15px;
+    padding: 15px 5px;
     border-bottom: 2px dotted var(--text-color);
 
     @media (max-width: 640px) {
-      padding-bottom: 30px;
+      padding-bottom: 20px;
       font-size: 1.1rem;
+    }
+
+    &_icon {
+      position: relative;
+      left: -8px;
     }
   }
 }
