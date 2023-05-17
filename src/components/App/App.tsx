@@ -9,11 +9,11 @@ const App = () => {
 
   return (
     <div className={`${styles.app} ${theme}`}>
-      <div className={styles['content-wrapper']}>
         <Header />
+      <div className={styles['content-wrapper']}>
         <Main />
-        <Footer />
       </div>
+        <Footer />
     </div>
   );
 };

@@ -10,7 +10,7 @@
     flex-direction: column;
     gap: 15px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       flex-direction: row;
       flex-wrap: wrap;
       justify-content: space-between;
@@ -22,7 +22,7 @@
   &__list-item {
     font-size: 20px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       padding-left: 30px;
       flex-basis: 45%;
     }

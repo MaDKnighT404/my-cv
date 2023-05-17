@@ -2,10 +2,14 @@
   min-height: 100vh;
   background: var(--bg-color);
   color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 
   .content-wrapper {
     max-width: 1200px;
     min-width: 300px;
     margin: 0 auto;
+    flex: 1 0 auto;
   }
 }

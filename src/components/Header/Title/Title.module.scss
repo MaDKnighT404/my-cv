@@ -1,5 +1,5 @@
 .title {
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     text-indent: 90px
   }
 
@@ -11,7 +11,7 @@
       margin-top: 0px;
     }
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       margin-top: 5px;
       font-size: 1.4rem;
     }
@@ -21,18 +21,18 @@
     font-size: 1.4rem;
     margin-top: 10px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       font-size: 1.1rem;
     }
   }
 
   &__location {
     font-size: 1.4rem;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 15px 5px;
     border-bottom: 2px dotted var(--text-color);
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       padding-bottom: 20px;
       font-size: 1.1rem;
     }

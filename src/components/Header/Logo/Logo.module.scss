@@ -2,7 +2,7 @@
   display: flex;
   align-self: center;
 
-  @media (max-width: 640px) {
+  @media (max-width: 768px) {
     align-self: flex-start;
     position: absolute;
   }
@@ -10,7 +10,7 @@
   &__img {
     width: 200px;
 
-    @media (max-width: 640px) {
+    @media (max-width: 768px) {
       width: 75px;
     }
 
