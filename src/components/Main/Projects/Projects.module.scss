@@ -1,7 +1,17 @@
 .projects {
   margin-top: 50px;
+
   &__title {
     text-align: center;
+  }
+}
 
+.projects-list {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
   }
 }

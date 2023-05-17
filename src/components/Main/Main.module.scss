@@ -7,38 +7,32 @@
     max-width: 1200px;
     display: grid;
     grid-template-areas:
-    "skills sum sum"
-    "skills . . "
-    "skills educ lang "
-    "skills educ lang";
+      'skills sum sum'
+      'skills . . '
+      'skills educ lang '
+      'skills educ lang';
     grid-template-columns: 225px 1fr 1fr;
     gap: 25px;
 
-    @media (max-width: 790px) {
-      grid-template-columns: 150px 3fr 1fr;
-    }
-
     @media (max-width: 768px) {
       grid-template-areas:
-      "sum sum"
-      "sum sum"
-      "skills educ"
-      "skills educ"
-      "lang lang";
-      grid-template-columns: 130px 1fr;
+        'sum sum '
+        'skills educ'
+        'skills lang';
+      grid-template-columns: 175px 1fr;
+
     }
 
-    @media (max-width: 768px) {
-      grid-template-areas:
-      "sum"
-      "skills"
-      "educ"
-      "lang";
-      grid-template-columns:1fr;
-    }
+    // @media (max-width: 768px) {
+    //   grid-template-areas:
+    //   "sum"
+    //   "skills"
+    //   "educ"
+    //   "lang";
+    //   grid-template-columns:1fr;
+    // }
   }
 
   .work {
-
   }
 }
