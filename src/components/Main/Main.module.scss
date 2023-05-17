@@ -8,11 +8,15 @@
     display: grid;
     grid-template-areas:
     "skills sum sum"
-    "skills educ lang"
-    "skills educ lang"
+    "skills . . "
+    "skills educ lang "
     "skills educ lang";
     grid-template-columns: 225px 1fr 1fr;
     gap: 25px;
+
+    @media (max-width: 790px) {
+      grid-template-columns: 150px 3fr 1fr;
+    }
 
     @media (max-width: 640px) {
       grid-template-areas:
