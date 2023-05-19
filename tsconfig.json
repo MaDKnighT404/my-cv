@@ -6,7 +6,8 @@
       "@Header/*": ["./src/components/Header/*"],
       "@Footer/*": ["./src/components/Footer/*"],
       "@store/*": ["./src/store/*"],
-      "@assets/*": ["./src/assets/*"]
+      "@assets/*": ["./src/assets/*"],
+      "@data/*": ["./src/data/*"]
     },
     "target": "ESNext",
     "useDefineForClassFields": true,

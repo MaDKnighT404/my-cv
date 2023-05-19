@@ -13,6 +13,7 @@ export default defineConfig({
       '@Footer': path.resolve(__dirname, './src/components/Footer/'),
       '@store': path.resolve(__dirname, './src/store/'),
       '@assets': path.resolve(__dirname, './src/assets/'),
+      '@data': path.resolve(__dirname, './src/data/'),
     },
   },
 });
