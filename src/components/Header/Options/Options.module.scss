@@ -1,11 +1,11 @@
 .options {
   display: flex;
   position: absolute;
-  top: 20px;
-  left: 10px;
+  top: 0px;
+  right: -25px;
 
   @media (max-width: 768px) {
-    top: 10px;
+    right: -15px;
   }
 
   &__btn {

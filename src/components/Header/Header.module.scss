@@ -2,9 +2,13 @@
   position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 25px 25px 0px;
+  padding-top: 50px;
   gap: 40px;
   margin: 0 auto;
+
+  @media (max-width: 768px) {
+    padding-top: 25px;
+  }
 
   &-content {
     width: 970px;

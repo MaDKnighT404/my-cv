@@ -1,7 +1,7 @@
 .main-wrapper {
   margin: 50px 0;
-  padding: 0 25px;
   max-width: 1200px;
+
 
   .main {
     margin-left: 25px;
@@ -27,24 +27,13 @@
     }
 
     @media (max-width: 570px) {
-      margin-left: 0px;
       grid-template-areas:
         'sum sum'
         'skills educ '
         'skills . '
         'skills lang '
         'proj proj ';
-      grid-template-columns: 170px 1fr;
-    }
-
-    @media (max-width: 480px) {
-      grid-template-areas:
-        'sum'
-        'skills'
-        'educ'
-        'lang'
-        'proj';
-      grid-template-columns: 1fr;
+      grid-template-columns: 1fr 1fr;
     }
   }
 }

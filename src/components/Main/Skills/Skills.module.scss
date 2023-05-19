@@ -1,10 +1,5 @@
 .skills {
   grid-area: skills;
-  
-  @media (max-width: 768px) {
-
-  }
-
 
   &__list {
     display: flex;
@@ -17,16 +12,10 @@
       justify-content: space-between;
       gap: 10px;
     }
-
   }
 
   &__list-item {
     font-size: 20px;
     flex-basis: 100%;
-
-    @media (max-width: 480px) {
-      padding-left: 7px;
-      flex-basis: 45%;
-    }
   }
 }

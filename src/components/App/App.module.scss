@@ -2,11 +2,15 @@
   min-height: 100vh;
   background: var(--bg-color);
   color: var(--text-color);
-
+  min-width: 290px;
+  padding: 0 25px;
+  @media (max-width: 570px) {
+    padding: 0 15px;
+  }
 
   .content-wrapper {
     max-width: 1200px;
-    min-width: 300px;
+
     margin: 0 auto;
     flex: 1 0 auto;
   }
