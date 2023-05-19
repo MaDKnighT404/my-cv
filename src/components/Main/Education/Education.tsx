@@ -6,7 +6,7 @@ export const Education = () => {
       <h2 className={styles.education__title}>Education</h2>
       <div className={styles.education__content}>
         <span className={styles.education__university}>
-          Sochi Institute of Economics <br /> and Information Technologies
+          Sochi Institute of <br /> Economics and <br /> Information <br /> Technologies
         </span>
         <span className={styles.education__speciality}>Computer engineer</span>
         <span className={styles.education__years}>2005 - 2010</span>

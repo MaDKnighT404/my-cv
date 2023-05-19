@@ -1,37 +1,50 @@
-.main {
+.main-wrapper {
   margin: 50px 0;
-  padding: 0 15px;
+  padding: 0 25px;
   max-width: 1200px;
 
-  .about {
+  .main {
+    margin-left: 25px;
     max-width: 1200px;
     display: grid;
     grid-template-areas:
       'skills sum sum'
-      'skills educ lang '
-      'skills educ lang';
-    grid-template-columns: 225px 1fr 1fr;
+      'skills proj proj '
+      'educ proj proj'
+      'lang proj proj'
+      '. proj proj';
+    grid-template-columns: 200px 1fr 1fr;
     gap: 25px;
 
     @media (max-width: 768px) {
+      margin-left: 0px;
       grid-template-areas:
-        'sum sum '
-        'skills educ'
-        'skills lang';
-      grid-template-columns: 175px 1fr;
+        'sum sum sum'
+        'skills educ lang'
+        'skills . .'
+        'proj proj proj ';
+      grid-template-columns: 1fr 1fr 1fr;
+    }
 
+    @media (max-width: 570px) {
+      margin-left: 0px;
+      grid-template-areas:
+        'sum sum'
+        'skills educ '
+        'skills . '
+        'skills lang '
+        'proj proj ';
+      grid-template-columns: 170px 1fr;
     }
 
     @media (max-width: 480px) {
       grid-template-areas:
-      "sum"
-      "skills"
-      "educ"
-      "lang";
-      grid-template-columns:1fr;
+        'sum'
+        'skills'
+        'educ'
+        'lang'
+        'proj';
+      grid-template-columns: 1fr;
     }
-  }
-
-  .work {
   }
 }

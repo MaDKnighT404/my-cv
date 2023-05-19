@@ -1,5 +1,14 @@
 .languages {
   grid-area: lang;
+  margin-top: 15px;
+
+  @media (max-width: 768px) {
+    margin-top: 0;
+  }
+  
+  &__title {
+    text-align: left;
+  }
 
   &__list {
     display: flex;
@@ -8,7 +17,7 @@
     font-size: 20px;
 
     @media (max-width: 768px) {
-      align-items: center;
+      margin-top: 0px;
     }
   }
 }

@@ -7,14 +7,12 @@ import styles from './Main.module.scss';
 
 export const Main = () => {
   return (
-    <div className={styles.main}>
-      <section className={styles.about}>
+    <div className={styles['main-wrapper']}>
+      <section className={styles.main}>
         <Summary />
         <Skills />
-        <Education />
         <Languages />
-      </section>
-      <section className={styles.work}>
+        <Education />
         <Projects />
       </section>
     </div>

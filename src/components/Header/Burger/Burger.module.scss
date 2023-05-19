@@ -3,15 +3,11 @@
   font-size: 2.5rem;
   cursor: pointer;
   
-  @media (max-width: 900px) {
+  @media (max-width: 940px) {
     display: block;
     position: absolute;
-    right: 0;
-    top: 0;
-  }
-
-  @media (max-width: 640px) {
-    margin-top: 5px;
+    right: -15px;
+    top: -20px;
     font-size: 1.5rem;
   }
 }
