@@ -26,12 +26,12 @@ export const Navigation = () => {
         </li>
         <li>
           <a href="" className={styles['nav-menu__link']}>
-            Courses
+            Education
           </a>
         </li>
         <li>
           <a href="" className={styles['nav-menu__link']}>
-            Education
+            Courses
           </a>
         </li>
         <li>

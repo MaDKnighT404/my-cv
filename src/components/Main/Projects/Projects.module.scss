@@ -1,22 +1,18 @@
 .projects {
   grid-area: proj;
 
-  &__title {
-    margin: 1.5rem 0;
-  }
-  
-}
+  &-list {
+    display: grid;
+    gap: 35px;
+    margin-top: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
 
-.projects-list {
-  display: grid;
-  gap: 35px;
-  grid-template-columns: 1fr 1fr 1fr;
+    @media (max-width: 1028px) {
+      grid-template-columns: 1fr 1fr;
+    }
 
-  @media (max-width: 1028px) {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  @media (max-width: 580px) {
-    grid-template-columns: 1fr;
+    @media (max-width: 580px) {
+      grid-template-columns: 1fr;
+    }
   }
 }

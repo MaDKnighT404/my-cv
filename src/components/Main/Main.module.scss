@@ -2,15 +2,15 @@
   margin: 50px 0;
   max-width: 1200px;
 
-
   .main {
     margin-left: 25px;
     max-width: 1200px;
     display: grid;
     grid-template-areas:
       'skills sum sum'
-      'skills proj proj '
+      'skills proj proj'
       'educ proj proj'
+      'cours proj proj'
       'lang proj proj'
       '. proj proj';
     grid-template-columns: 200px 1fr 1fr;
@@ -20,8 +20,8 @@
       margin-left: 0px;
       grid-template-areas:
         'sum sum sum'
-        'skills educ lang'
-        'skills . .'
+        'skills cours educ'
+        'skills cours lang'
         'proj proj proj ';
       grid-template-columns: 1fr 1fr 1fr;
     }
@@ -29,10 +29,12 @@
     @media (max-width: 570px) {
       grid-template-areas:
         'sum sum'
-        'skills educ '
-        'skills . '
-        'skills lang '
+        'skills cours'
+        'skills cours'
+        'skills cours'
+        'educ lang'
         'proj proj ';
+      gap: 15px;
       grid-template-columns: 1fr 1fr;
     }
   }
