@@ -1,17 +1,14 @@
 .skills {
   grid-area: skills;
 
+  @media (max-width: 540px) {
+    justify-self: center;
+  }
+
   &__list {
     display: flex;
     flex-direction: column;
     gap: 15px;
-
-    @media (max-width: 768px) {
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      gap: 10px;
-    }
   }
 
   &__list-item {

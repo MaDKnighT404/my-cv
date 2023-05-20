@@ -1,6 +1,9 @@
 .education {
   grid-area: educ;
-  margin-top: 15px;
+
+  @media (max-width: 540px) {
+    justify-self: center;
+  }
 
   @media (max-width: 768px) {
     margin-top: 0;
@@ -15,8 +18,5 @@
     flex-direction: column;
     gap: 15px;
     line-height: 1.5rem;
-
-    @media (max-width: 768px) {
-    }
   }
 }

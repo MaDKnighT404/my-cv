@@ -41,6 +41,15 @@ export const Courses = () => {
             <span className={styles.courses__name}>Next</span>
           </a>
         </li>
+        <li className={styles.courses__item}>
+          <a
+            className={styles.courses__link}
+            href="https://www.youtube.com/watch?v=GQ_pTmcXNrQ&t=12341s&ab_channel=ArchakovBlog"
+          >
+            <span className={styles.courses__source}>Youtube</span>
+            <span className={styles.courses__name}>FullStack</span>
+          </a>
+        </li>
       </ul>
     </article>
   );

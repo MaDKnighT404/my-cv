@@ -14,7 +14,7 @@
       'lang proj proj'
       '. proj proj';
     grid-template-columns: 200px 1fr 1fr;
-    gap: 25px;
+    gap: 15px;
 
     @media (max-width: 768px) {
       margin-left: 0px;
@@ -26,16 +26,16 @@
       grid-template-columns: 1fr 1fr 1fr;
     }
 
-    @media (max-width: 570px) {
+    @media (max-width: 540px) {
       grid-template-areas:
-        'sum sum'
-        'skills cours'
-        'skills cours'
-        'skills cours'
-        'educ lang'
-        'proj proj ';
+        'sum sum sum sum sum sum sum sum'
+        'skills skills skills cours cours cours cours cours'
+        'skills skills skills cours cours cours cours cours'
+        'skills skills skills cours cours cours cours cours'
+        'educ educ educ educ lang lang lang lang'
+        'proj proj proj proj proj proj proj proj';
       gap: 15px;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
   }
 }

@@ -15,6 +15,7 @@ export const Skills = () => {
         <li className={styles['skills__list-item']}>Redux</li>
         <li className={styles['skills__list-item']}>Zustand</li>
         <li className={styles['skills__list-item']}>Git</li>
+        <li className={styles['skills__list-item']}>Express</li>
         <li className={styles['skills__list-item']}>Jest</li>
         <li className={styles['skills__list-item']}>Cypress</li>
       </ul>

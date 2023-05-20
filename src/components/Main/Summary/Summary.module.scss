@@ -9,5 +9,9 @@
 
   &__content {
     line-height: 1.6rem;
+
+    @media (max-width: 540px) {
+      padding: 0 15px;
+    }
   }
 }

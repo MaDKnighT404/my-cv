@@ -1,6 +1,10 @@
 .courses {
   grid-area: cours;
 
+  @media (max-width: 540px) {
+    justify-self: center;
+  }
+  
   &__content {
     display: flex;
     flex-direction: column;
