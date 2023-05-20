@@ -5,11 +5,42 @@ export const Courses = () => {
     <article className={`article ${styles.courses}`}>
       <h2 className={styles.courses__title}>Courses</h2>
       <ul className={styles.courses__content}>
-        <li className={styles.courses__item}>1</li>
-        <li className={styles.courses__item}>2</li>
-        <li className={styles.courses__item}>3</li>
-        <li className={styles.courses__item}>4</li>
-        <li className={styles.courses__item}>5</li>
+        <li className={styles.courses__item}>
+          <a className={styles.courses__link} href="https://app.rs.school/certificate/slfgvwn1">
+            <span className={styles.courses__source}>RS School</span>
+            <span className={styles.courses__name}>JavaScript</span>
+          </a>
+        </li>
+        <li className={styles.courses__item}>
+          <a className={styles.courses__link} href="">
+            <span className={styles.courses__source}>RS School</span>
+            <span className={styles.courses__name}>React</span>
+          </a>
+        </li>
+        <li className={styles.courses__item}>
+          <a className={styles.courses__link} href="https://ru.hexlet.io/courses/intro_to_git">
+            <span className={styles.courses__source}>Hexlet</span>
+            <span className={styles.courses__name}>Git</span>
+          </a>
+        </li>
+        <li className={styles.courses__item}>
+          <a
+            className={styles.courses__link}
+            href="https://www.youtube.com/watch?v=CxgOKJh4zWE&ab_channel=BogdanStashchuk"
+          >
+            <span className={styles.courses__source}>Youtube</span>
+            <span className={styles.courses__name}>JavaScript</span>
+          </a>
+        </li>
+        <li className={styles.courses__item}>
+          <a
+            className={styles.courses__link}
+            href="https://www.youtube.com/watch?v=g1mPqu7u39o&ab_channel=REDGroup"
+          >
+            <span className={styles.courses__source}>Youtube</span>
+            <span className={styles.courses__name}>Next</span>
+          </a>
+        </li>
       </ul>
     </article>
   );

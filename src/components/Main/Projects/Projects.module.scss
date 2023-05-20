@@ -1,6 +1,12 @@
 .projects {
   grid-area: proj;
 
+  &__title {
+    @media (max-width:768px) {
+      text-align: center;
+    }
+  }
+
   &-list {
     display: grid;
     gap: 35px;

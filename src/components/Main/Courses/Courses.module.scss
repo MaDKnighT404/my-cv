@@ -1,3 +1,15 @@
 .courses {
   grid-area: cours;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  &__link {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
 }
