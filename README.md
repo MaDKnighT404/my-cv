@@ -1,1 +1,1 @@
-#My CV
+# Deploy: https://koloidi-cv.netlify.app/
