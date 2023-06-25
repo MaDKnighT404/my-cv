@@ -1,6 +1,6 @@
 import { Project } from './Project';
-import styles from './Projects.module.scss';
 import projectsData from '@data/projectsData';
+import styles from './Projects.module.scss';
 
 export const Projects = () => {
   return (
