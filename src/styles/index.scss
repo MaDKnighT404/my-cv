@@ -4,10 +4,16 @@
 @import 'themes/light';
 @import 'themes/dark';
 
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial,
     sans-serif;
   font-size: 18px;
+
 }
 
 h2 {

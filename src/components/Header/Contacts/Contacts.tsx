@@ -2,7 +2,7 @@ import styles from './Contacts.module.scss';
 
 export const Contacts = () => {
   return (
-    <ul className={styles.contacts}>
+    <ul className={styles.contacts} id="contacts">
       <li className={styles.contacts__item}>
         <span className={styles.contacts__header}>Github</span>
         <span className={styles.contacts__content}>github.com/madknight404</span>
@@ -14,7 +14,7 @@ export const Contacts = () => {
       <li className={styles.contacts__item}>
         <span className={styles.contacts__header}>Telegram</span>
         <a href="https://t.me/friend_42" className={styles.contacts__content}>
-        t.me/friend_42
+          t.me/friend_42
         </a>
       </li>
       <li className={styles.contacts__item}>

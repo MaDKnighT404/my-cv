@@ -4,7 +4,7 @@ import projectsData from '@data/projectsData';
 
 export const Projects = () => {
   return (
-    <article className={styles.projects}>
+    <article className={styles.projects} id="projects">
       <h2 className={styles.projects__title}>My projects</h2>
       <ul className={styles['projects-list']}>
         {projectsData.map((projectData) => (

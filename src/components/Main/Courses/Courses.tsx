@@ -2,7 +2,7 @@ import styles from './Courses.module.scss';
 
 export const Courses = () => {
   return (
-    <article className={`article ${styles.courses}`}>
+    <article className={`article ${styles.courses}`} id="courses">
       <h2 className={styles.courses__title}>Courses</h2>
       <ul className={styles.courses__content}>
         <li className={styles.courses__item}>

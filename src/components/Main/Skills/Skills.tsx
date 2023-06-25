@@ -2,7 +2,7 @@ import styles from './Skills.module.scss';
 
 export const Skills = () => {
   return (
-    <article className={`article ${styles.skills}`}>
+    <article className={`article ${styles.skills}`} id="skills">
       <h2 className={styles.skills__title}>Skills</h2>
       <ul className={styles.skills__list}>
         <li className={styles['skills__list-item']}>HTML</li>

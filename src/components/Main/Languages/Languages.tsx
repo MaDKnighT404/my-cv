@@ -2,7 +2,7 @@ import styles from './Languages.module.scss';
 
 export const Languages = () => {
   return (
-    <article className={`article ${styles.languages}`}>
+    <article className={`article ${styles.languages}`} id="languages">
       <h2 className={styles.languages__title}>Languages</h2>
       <ul className={styles.languages__list}>
         <li className={styles.languages__item}>Russia - Native</li>

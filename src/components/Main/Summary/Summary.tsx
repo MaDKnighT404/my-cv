@@ -2,7 +2,7 @@ import styles from './Summary.module.scss';
 
 export const Summary = () => {
   return (
-    <article className={`article ${styles.summary}`}>
+    <article className={`article ${styles.summary}`} id="summary">
       <h2 className={styles.summary__title}>Summary</h2>
       <p className={styles.summary__content}>
         More than a year ago I started learning JavaScript and creating my first pet projects. I

@@ -5,38 +5,38 @@ export const Navigation = () => {
     <nav className={styles.nav}>
       <ul className={styles['nav-menu']}>
         <li>
-          <a href="" className={styles['nav-menu__link']}>
+          <a href="#contacts" className={styles['nav-menu__link']}>
             Contacts
           </a>
         </li>
         <li>
-          <a href="" className={styles['nav-menu__link']}>
+          <a href="#summary" className={styles['nav-menu__link']}>
             Summary
           </a>
         </li>
         <li>
-          <a href="" className={styles['nav-menu__link']}>
+          <a href="#skills" className={styles['nav-menu__link']}>
             Skills
           </a>
         </li>
         <li>
-          <a href="" className={styles['nav-menu__link']}>
+          <a href="#projects" className={styles['nav-menu__link']}>
             Projects
           </a>
         </li>
         <li>
-          <a href="" className={styles['nav-menu__link']}>
+          <a href="#education" className={styles['nav-menu__link']}>
             Education
           </a>
         </li>
         <li>
-          <a href="" className={styles['nav-menu__link']}>
+          <a href="#courses" className={styles['nav-menu__link']}>
             Courses
           </a>
         </li>
         <li>
-          <a href="" className={styles['nav-menu__link']}>
-            Language
+          <a href="#languages" className={styles['nav-menu__link']}>
+            Languages
           </a>
         </li>
       </ul>
